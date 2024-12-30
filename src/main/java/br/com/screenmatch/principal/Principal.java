@@ -3,6 +3,7 @@ package br.com.screenmatch.principal;
 import br.com.screenmatch.model.DadosSerie;
 import br.com.screenmatch.model.DadosTemporada;
 import br.com.screenmatch.model.Serie;
+import br.com.screenmatch.repository.SerieRepository;
 import br.com.screenmatch.service.ConsumoAPI;
 import br.com.screenmatch.service.ConverteDados;
 
@@ -60,6 +61,7 @@ public class Principal {
     private void buscarSerieWeb() {
         DadosSerie dados = getDadosSerie();
         dadosSeries.add(dados);
+
         System.out.println(dados);
     }
 
