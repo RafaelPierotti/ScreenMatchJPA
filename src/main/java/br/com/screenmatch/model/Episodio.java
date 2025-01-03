@@ -22,6 +22,7 @@ public class Episodio {
 
     public Episodio(){}
 
+
     public Episodio(Integer numeroTemporada, DadosEpisodio dadosEpisodio) {
         this.temporada = numeroTemporada;
         this.titulo = dadosEpisodio.titulo();
